@@ -2,7 +2,12 @@
 	$(function() {
 		$("#media-upload").on("click", function() {
 			window.send_to_editor = function(html) {
-				var imgUrl = $(html).attr("src");
+				var imgUrl = $("img", html).attr("src");
+
+				if (imgUrl === undefined) {
+					imgUrl = $(html).attr("src");
+				}
+
 				$("#image-url").val(imgUrl);
 				$("#image-view").attr("src", imgUrl);
 				tb_remove();
