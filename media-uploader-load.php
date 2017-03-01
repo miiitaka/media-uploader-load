@@ -44,7 +44,7 @@ class Media_Uploader_Load {
 
 		echo '<div class="wrap">';
 		echo '<h1>Media Uploader ( Load Type )</h1>';
-		echo '<p><img id="image-view" src="' . $plugin_path . 'images/no-image.gif" width="260"></p>';
+		echo '<p><img id="image-view" src="' . plugins_url( 'images/no-image.gif', __FILE__ ) . '" width="260"></p>';
 		echo '<p><input id="image-url" type="text" class="large-text"></p>';
 		echo '<button id="media-upload">Choose Image</button>';
 		echo '</div>';
