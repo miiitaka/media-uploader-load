@@ -34,7 +34,7 @@ class Media_Uploader_Load {
 	}
 
 	public function admin_scripts () {
-		wp_enqueue_script( 'media-uploader-main-js', plugins_url( 'js/main.js', __FILE__ ), array( 'jquery' ) );
+		wp_enqueue_script( 'media-uploader-main-js', plugins_url( 'js/media-uploader-main.js', __FILE__ ), array( 'jquery' ) );
 		wp_enqueue_script( 'media-upload' );
 		wp_enqueue_script( 'thickbox' );
 	}
