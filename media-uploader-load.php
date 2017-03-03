@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Media Uploader Load Type Sample Plugin
-Plugin URI: https://www.terakoya.work/
+Plugin URI: https://github.com/miiitaka/media-uploader-load
 Description: Media uploader load type sample plugin.
 Version: 1.0.0
 Author: Kazuya Takami
